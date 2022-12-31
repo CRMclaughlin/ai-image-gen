@@ -69,7 +69,7 @@ body {
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  width: 100%;
+  /* width: 100%; */
 }
 
 .showcase form input,
@@ -114,4 +114,35 @@ img {
   font-size: 1.6rem;
   text-align: center;
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 531px) {
+  body {
+    width: fit-content;
+  }
+  .showcase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+  }
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .showcase {
+   display: flex;
+   flex-direction: column;
+   width: fit-content;
+  }
+  .form-control {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
 }
