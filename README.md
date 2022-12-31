@@ -40,6 +40,8 @@ This is a simple image generator built with Node.js and Express that uses [OpenA
   
 ## Demo
 
+   ![Screen Shot 2022-12-31 at 12 07 10 PM (2)](https://user-images.githubusercontent.com/111208223/210152287-6ae667ff-111f-4af0-87a4-67f73cefd8ec.png)
+
 
   
 ## License
