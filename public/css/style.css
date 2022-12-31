@@ -116,7 +116,7 @@ img {
   margin-top: 1rem;
 }
 
-@media only screen and (max-width: 531px) {
+@media only screen and (max-width: 542px) {
   body {
     width: fit-content;
   }
@@ -134,7 +134,10 @@ img {
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 390px) {
+  body {
+    width: fit-content;
+  }
   .showcase {
    display: flex;
    flex-direction: column;
