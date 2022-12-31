@@ -38,9 +38,9 @@ This project was made from following [YouTube tutorial](https://www.youtube.com/
   
 * Navigate to the depoloyed [Herouku page](https://still-scrubland-96431.herokuapp.com/) to begin creating AI Images!
 
-* To create an image use the prompt box to subject (ie. Donut Mosaic)
+* To create an image use the prompt box to create what image you would want to see (ie. Donut Mosaic)
 * Select the size of the image
-* Click 'Generate' to generate your image
+* Click `Generate` to generate your image
 
   
 ## Demo
