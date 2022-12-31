@@ -40,7 +40,7 @@ This project was made from following [YouTube tutorial](https://www.youtube.com/
 
 * To create an image use the prompt box to subject (ie. Donut Mosaic)
 * Select the size of the image
-* Click 'Generate' to generate your image
+* Click `Generate` to generate your image
 
   
 ## Demo
