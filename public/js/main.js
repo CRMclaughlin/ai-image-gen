@@ -18,14 +18,17 @@ function onSubmit(e) {
   async function generateImageRequest(prompt, size) {
     try {
       showSpinner();
-      formBody = formBody.join('&')
+      
   
       const response = await fetch('/openai/generateimage', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8',
         },
-        body: formBody,
+        body: new URLSearchParams({
+            prompt,
+            size,
+        }),
       });
   
       if (!response.ok) {
