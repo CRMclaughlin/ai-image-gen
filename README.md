@@ -12,7 +12,9 @@
 
   ## Description
  
-This is a simple image generator built with Node.js and Express that uses [OpenAI's DALL-E models](https://beta.openai.com/docs/guides/images)
+This is a simple image generator built with Node.js and Express that uses [OpenAI's DALL-E models](https://beta.openai.com/docs/guides/images).
+
+This project was made from following [YouTube tutorial](https://www.youtube.com/watch?v=fU4o_BKaUZE)
   
   ## Installation
   <h3> To use this project you will need these programs installed on your machine:<h3>
@@ -20,12 +22,15 @@ This is a simple image generator built with Node.js and Express that uses [OpenA
   * VS Code
   * Node.js
   * express.js
+  * Generate an API KEY at [OpenAI](https://beta.openai.com/) and add it to the `.env` file.
   
   
   <h3> Steps to initialize this project locally on your machine <h3>
     
     1. Copy link from Github repo and clone to your coding workspace
-    2. In your terminal use the command "npm init -y" to install Node Package Manager
+    2. In your terminal use the command `npm init -y` to install Node Package Manager
+    3. `npm run dev` to start nodemon in terminal
+
     
     
   
@@ -49,6 +54,7 @@ N/A
   
   
 ## Contributing
+
 N/A
   
 ## Tests
