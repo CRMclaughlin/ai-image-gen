@@ -36,7 +36,7 @@ This project was made from following [YouTube tutorial](https://www.youtube.com/
   
 ## Usage 
   
-* Navigate to the depoloyed [Herouku page](https://infinite-dawn-57264.herokuapp.com/) to begin creating AI Images!
+* Navigate to the depoloyed [Herouku page](https://still-scrubland-96431.herokuapp.com/) to begin creating AI Images!
 
 * To create an image use the prompt box to subject (ie. Donut Mosaic)
 * Select the size of the image
