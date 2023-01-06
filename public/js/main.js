@@ -39,13 +39,31 @@ function onSubmit(e) {
     //   console.log(data);
   
       const imageUrl = data.data;
+
+      console.log(imageUrl)
   
       document.querySelector('#image').src = imageUrl;
   
       removeSpinner();
+      var findLink = document.getElementById('downloadLink')
+      findLink.href = imageUrl
+      console.log(findLink)
     } catch (error) {
       document.querySelector('.msg').textContent = error;
     }
+  }
+
+  async function downloadImage(imageSrc) {
+    const image = await fetch(imageSrc)
+    const imageBlog = await image.blob()
+    const imageUrl = URL.createObjectURL(imageUrl)
+
+    const link = document.createElement('a')
+    link.href = imageURL
+    link.download = 'image file name here'
+    document.body.appendChild(link)
+    link.click()
+    document.body.removeChild(link)
   }
   
   function showSpinner() {
